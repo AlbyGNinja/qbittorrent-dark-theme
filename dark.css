@@ -1,0 +1,64 @@
+#desktopHeader, #desktopNavbar {
+    background: #000;
+}
+#desktopNavbar ul li * {
+  color: #f0f0f0;
+  background: #000;
+}
+#desktopNavbar ul li *:hover {
+  color: #f0f0f0;
+  background: #555;
+}
+#torrentsFilterInput {
+  background: #333;
+  color: #f0f0f0;
+}
+#Filters {
+  background: #222;
+  color: #fff;
+}
+.dynamicTable tbody tr {
+    background-color: #222;
+    color: #ccc;
+}
+.dynamicTable tbody tr:nth-child(even), .dynamicTable tbody tr.alt {
+    background-color: #444;
+}
+.dynamicTable thead tr * {
+    background-color: #111;
+    color: #ccc;
+}
+.dynamicTableDiv {
+  background-color: #222;
+}
+.dynamicTableFixedHeaderDiv {
+  background-color: #222;
+}
+.dynamicTable tbody tr.selected {
+    background-color: #044bd3;
+    color: #fff;
+}
+.mochaTitlebar h3 {
+  color: #fff;
+  background-color: #222;
+  border: 1px solid #555;
+  border-radius: 6px;
+}
+#preferencesPage_content, #preferencesPage_contentWrapper {
+  background-color: #222;
+}
+#preferencesPage_content *{
+  color: #ccc;
+}
+#preferencesPage_overlay select, #preferencesPage_overlay input,
+#preferencesPage_overlay textarea {
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+#preferencesPage_overlay select:disabled, #preferencesPage_overlay input:disabled {
+  border-radius: 5px;
+  background-color: #444;
+  color: #aaa;
+  cursor: not-allowed;
+}
